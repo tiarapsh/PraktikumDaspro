@@ -13,7 +13,7 @@ public class nestedUjianSkripsiNoPresensi {
         System.out.println("Enter the number of guidance logs with Supervisor 2:");
         int supervisor2 = scan.nextInt();
 
-        if(compensationStatus.equalsIgnoreCase("Yes") || compensationStatus.equalsIgnoreCase("Y") || compensationStatus.equalsIgnoreCase("No") || compensationStatus.equalsIgnoreCase("N")){
+        if(compensationStatus.equalsIgnoreCase("Yes") || compensationStatus.equalsIgnoreCase("Y") ){
             if (supervisor1 >= 8 && supervisor2 >= 4){
                 message = "All requirements are met. The student may register for the thesis exam.";
             }else if ( supervisor1 < 8 && supervisor2 < 4){
