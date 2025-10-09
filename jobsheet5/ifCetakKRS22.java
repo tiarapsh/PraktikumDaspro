@@ -12,5 +12,14 @@ public class ifCetakKRS22 {
         }else {
             System.out.println("Registration rejected. Please pay UKT first.");
         }
+
+        String message = uktLunas
+                ? "UKT payment has been verified.\nKRS now can be printed and you can ask the academic advisor to sign it."
+                : "Registration rejected. Please pay UKT first.";
+        System.out.println(message);
+    
+       {
+
+        }
     }
 }
